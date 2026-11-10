@@ -1,0 +1,21 @@
+# Corpore Sano Estética & Saúde
+
+> Clínica de estética facial e corporal, com clínica médica e cardiologia em R. Prof. Herbert Baldus, 151 - Vila São Francisco, São Paulo - SP, 05339-020. Estética com a enfermeira esteta Juliana Farina; clínica médica e cardiologia com o Dr. Alan Cesar E F Silva (CRM 112807). Atendimento pelo WhatsApp (11) 93232-8635.
+
+## Dados do negócio
+
+- Endereço: R. Prof. Herbert Baldus, 151 - Vila São Francisco, São Paulo - SP, 05339-020
+- Horário: Seg a sex, 9h às 20h; sáb, 8h às 12h30; dom fechado
+- WhatsApp: (11) 93232-8635 (https://wa.me/5511932328635)
+- Instagram: https://www.instagram.com/corporesanoesteticaesaude/
+
+## Serviços
+
+- Estética facial: toxina botulínica, preenchimentos com ácido hialurônico, bioestimuladores de colágeno, fios de PDO, Ultherapy, laser Lavieen, peelings e tratamentos para rejuvenescimento facial
+- Estética corporal: gordura localizada, flacidez, celulite, papada, protocolos de remodelação corporal e secagem de vasinhos; protocolos personalizados, definidos após avaliação individualizada
+- Clínica médica e cardiologia (Dr. Alan Cesar E F Silva, CRM 112807): particular e convênios via reembolso, presencial ou por telemedicina
+
+## Páginas
+
+- [Página inicial](https://{{DOMINIO}}/)
+- [Política de Privacidade](https://{{DOMINIO}}/politica-de-privacidade.html)
