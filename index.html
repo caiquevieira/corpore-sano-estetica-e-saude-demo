@@ -67,8 +67,8 @@
     }
   </style>
 
-  <link rel="stylesheet" href="assets/css/styles.css?v=202611101537">
-  <script src="assets/js/main.js?v=202611101537" defer></script>
+  <link rel="stylesheet" href="assets/css/styles.css?v=202611101551">
+  <script src="assets/js/main.js?v=202611101551" defer></script>
 
   <!-- geo (latitude/longitude) não usado: o JSON-LD fica só com o endereço (briefing, seção 2) -->
   <script type="application/ld+json">
@@ -122,10 +122,11 @@
     </a>
 
     <nav aria-label="Principal" class="hidden lg:block">
-      <ul class="flex items-center gap-8 font-medium">
+      <ul class="flex items-center gap-6 font-medium xl:gap-8">
         <li><a href="#tratamentos" class="hover:text-marca">Tratamentos</a></li>
         <li><a href="#juliana" class="hover:text-marca">Juliana</a></li>
         <li><a href="#saude" class="hover:text-marca">Saúde</a></li>
+        <li><a href="#equipe" class="hover:text-marca">Equipe</a></li>
         <li><a href="#resultados" class="hover:text-marca">Resultados</a></li>
         <li><a href="#localizacao" class="hover:text-marca">Como chegar</a></li>
       </ul>
@@ -153,7 +154,7 @@
   <div class="container-lp grid gap-10 py-12 md:py-16 lg:grid-cols-12 lg:items-center lg:gap-12 lg:py-20">
     <div class="lg:col-span-7">
       <h1 id="hero-titulo" class="max-w-[13em] font-titulo text-titulo text-balance sm:text-titulo-lg lg:text-titulo-xl">Estética para continuar se reconhecendo no espelho.</h1>
-      <p class="mt-6 max-w-[32rem] text-destaque text-texto-suave">Tratamentos faciais e corporais com a enfermeira esteta Juliana Farina, na Vila São Francisco, em São Paulo.</p>
+      <p class="mt-6 max-w-[32rem] text-destaque text-texto-suave">Tratamentos faciais e corporais com a enfermeira esteta Juliana Farina e uma equipe de estética e saúde, na Vila São Francisco, em São Paulo.</p>
       <div class="mt-8 flex flex-wrap gap-3">
         <a href="https://wa.me/5511932328635?text=Ol%C3%A1!%20Vi%20o%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener"
            class="btn btn-whatsapp btn-lg" data-track="whatsapp" data-origem="hero">Agendar avaliação pelo WhatsApp</a>
@@ -278,6 +279,49 @@
   </div>
 </section>
 <!-- /SECTION: saude -->
+
+<!-- SECTION: equipe -->
+<!-- Nomes e funções informados pelo operador em 10/11/2026 (briefing, seção 8). Sem fotos por enquanto:
+     lista tipográfica com os mesmos fios dos tratamentos. Quando chegarem os retratos, avaliar se entram aqui. -->
+<section id="equipe" class="bg-superficie py-16 md:py-24" aria-labelledby="equipe-titulo">
+  <div class="container-lp">
+    <h2 id="equipe-titulo" class="font-titulo text-titulo md:text-titulo-lg">Equipe</h2>
+    <p class="mt-4 max-w-prose text-texto-suave">Estética e saúde no mesmo endereço, com uma equipe que acompanha você da recepção até o fim do atendimento.</p>
+
+    <div class="mt-10 grid gap-12 md:grid-cols-2 lg:grid-cols-3 lg:gap-14">
+      <div>
+        <h3 class="font-titulo text-destaque md:text-titulo-sm">Estética</h3>
+        <ul class="lista-fios mt-5">
+          <li><a href="#juliana" class="block font-titulo text-lg font-semibold hover:text-marca">Juliana Farina</a><span class="text-texto-suave">Enfermeira esteta</span></li>
+          <li><span class="block font-titulo text-lg font-semibold">Dra. Fernanda Santos</span><span class="text-texto-suave">Biomédica</span></li>
+          <li><span class="block font-titulo text-lg font-semibold">Liandra Carvalho</span><span class="text-texto-suave">Esteticista corporal e facial</span></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-titulo text-destaque md:text-titulo-sm">Saúde</h3>
+        <ul class="lista-fios mt-5">
+          <li><a href="#saude" class="block font-titulo text-lg font-semibold hover:text-marca">Dr. Alan Cesar</a><span class="text-texto-suave">Clínica médica e cardiologia</span></li>
+          <li><span class="block font-titulo text-lg font-semibold">Dra. Juliana Vilani</span><span class="text-texto-suave">Endocrinologista</span></li>
+          <li><span class="block font-titulo text-lg font-semibold">Dr. Diogo Correa</span><span class="text-texto-suave">Nutricionista</span></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-titulo text-destaque md:text-titulo-sm">Atendimento</h3>
+        <ul class="lista-fios mt-5">
+          <li><span class="block font-titulo text-lg font-semibold">Jaqueline Krieger</span><span class="text-texto-suave">Gerente</span></li>
+          <li><span class="block font-titulo text-lg font-semibold">Thalita Trevizani</span><span class="text-texto-suave">Comercial</span></li>
+          <li><span class="block font-titulo text-lg font-semibold">Victoria Tredezini</span><span class="text-texto-suave">Recepcionista</span></li>
+          <li><span class="block font-titulo text-lg font-semibold">Ana Lucia</span><span class="text-texto-suave">Concierge</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <a href="https://wa.me/5511932328635?text=Ol%C3%A1!%20Vi%20o%20site%20e%20gostaria%20de%20agendar%20um%20atendimento." target="_blank" rel="noopener"
+       class="mt-12 inline-block font-semibold text-marca underline decoration-2 underline-offset-4 hover:text-marca-escura"
+       data-track="whatsapp" data-origem="equipe">Agendar com a equipe pelo WhatsApp</a>
+  </div>
+</section>
+<!-- /SECTION: equipe -->
 
 <!-- SECTION: galeria -->
 <!-- Antes e depois: prints de slide do cliente (~430 px, rótulos embutidos), completados com branco até 2:3
